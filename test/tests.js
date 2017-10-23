@@ -61,11 +61,11 @@ describe('rainDropSpeaks function', () => {
     });
 
     it('should return \'Argument must be greater 0\' for 0', () => {
-      assert.equal(rainDropSpeaks(0), 'Argument must be greater 0');
+      assert.equal(rainDropSpeaks(0), 'Argument must be greater than 0');
     });
 
     it('should return \'Argument must be greater 0\' for -35', () => {
-      assert.equal(rainDropSpeaks(-35), 'Argument must be greater 0');
+      assert.equal(rainDropSpeaks(-35), 'Argument must be greater than 0');
     });
   });
 });
