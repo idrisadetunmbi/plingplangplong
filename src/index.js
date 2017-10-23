@@ -1,5 +1,6 @@
 export default function rainDropSpeaks(arg) {
   if (!Number.isInteger(arg)) return 'Argument must be an integer';
+  if (arg < 1) return 'Argument must be greater 0';
 
   const pling = 'Pling';
   const plang = 'Plang';
